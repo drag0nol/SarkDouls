@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769551d9ccee3be47b16385e4d856a0b, type: 3}
+  m_Name: FireBallAttack
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileAttack
+  damage: 5
+  cooldown: 0.1
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 960
+  hitFx: {fileID: 8194992990867289339, guid: 99bc28c0d45f51c4fbac01080b73edc7, type: 3}
+  projectilePrefab: {fileID: 984305163100523198, guid: 6273903cc32712942a47f0132b325fb6, type: 3}
+  speed: 15
